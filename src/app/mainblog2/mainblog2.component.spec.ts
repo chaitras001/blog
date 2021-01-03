@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainblogComponent } from './mainblog.component';
+import { Mainblog2Component } from './mainblog2.component';
 
-describe('MainblogComponent', () => {
-  let component: MainblogComponent;
-  let fixture: ComponentFixture<MainblogComponent>;
+describe('Mainblog2Component', () => {
+  let component: Mainblog2Component;
+  let fixture: ComponentFixture<Mainblog2Component>;
 
-  beforeEach(async () => { 
+  beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MainblogComponent ]
+      declarations: [ Mainblog2Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MainblogComponent);
+    fixture = TestBed.createComponent(Mainblog2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
